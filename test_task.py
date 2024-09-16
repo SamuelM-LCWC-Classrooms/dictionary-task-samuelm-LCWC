@@ -13,3 +13,6 @@ from task import task
 )
 def test_task(input_value, expected_output):
     assert task(input_value) == expected_output
+
+if __name__ == "__main__":
+    unittest.main()
